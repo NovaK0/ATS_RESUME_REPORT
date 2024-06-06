@@ -52,13 +52,13 @@ with st.sidebar:
     st.header("Instructions")
     st.markdown("""
         1. Enter the job description in the text area below.
-        2. Upload your resume (Preferably a single page PDF).
+        2. Upload your resume (Single page PDF).
         3. Choose one of the options to analyze your resume.
     """, unsafe_allow_html=True)
 
 input_text = st.text_area("Job Description", key="input", height=150)
 
-uploaded_file = st.file_uploader("Upload your resume (Preferably a single page PDF)", type=['pdf'])
+uploaded_file = st.file_uploader("Upload your resume (Single page PDF)", type=['pdf'])
 
 if uploaded_file is not None:
     st.success("PDF Uploaded Successfully")
