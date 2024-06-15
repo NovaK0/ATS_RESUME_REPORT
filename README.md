@@ -2,7 +2,7 @@
 
 ## Overview
 
-ATS Resume Expert is a Streamlit application designed to help job applicants optimize their resumes to better align with job descriptions. Leveraging the power of OpenAI's GPT-4, the app provides detailed professional evaluations of resumes, highlighting strengths, weaknesses, and offering actionable advice for improvement. The tool converts PDF resumes into text format for processing, ensuring compatibility with the AI model's requirements.
+ATS Resume Expert is a Streamlit application designed to help job applicants optimize their resumes to better align with job descriptions. Leveraging the power of Google Gemini Pro, the app provides detailed professional evaluations of resumes, highlighting strengths, weaknesses, and offering actionable advice for improvement. The tool converts PDF resumes into text format for processing, ensuring compatibility with the AI model's requirements.
 
 ## Features
 
